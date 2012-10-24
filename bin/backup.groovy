@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 @GrabResolver(name='sonatype', root='https://oss.sonatype.org/content/groups/public')
-@Grab(group='org.elasticsearch', module='elasticsearch', version='0.19.2')
+@Grab(group='org.elasticsearch', module='elasticsearch', version='0.20.0.RC1')
 import static org.elasticsearch.node.NodeBuilder.*
 import org.elasticsearch.common.settings.ImmutableSettings
 import org.elasticsearch.common.settings.Settings
